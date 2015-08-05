@@ -50,8 +50,4 @@ To add authentication, you'll need to do the following:
 
 ## Entrypoints
 
-This image defines an entrypoint which runs:
-
-    ```
-    /opt/influxdb/influxd -config /etc/opt/influxdb/influxdb.conf
-    ```
+This image defines an entrypoint which starts the influxdb service.
